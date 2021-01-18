@@ -66,9 +66,26 @@
 # 20
 # 30  
 
-    # sum = sum+int(i)
-    # print(sum)
+# sum = sum+int(i)
+# print(sum)
 
+# For Loop if u are capturing result in one variable then its a list
+# result = [int(i) for i in input("Enter the params").split()]
+# print(type(result))
+# print(result)
+
+# Output :: 
+# Enter the params12 21
+# <class 'list'>
+# [12, 21]
+
+# if we are not capturing result in single variable then its conversion data type but not list
+# a,b = [int(i) for i in input("Enter the params").split()]
+# print(type(a))
+# print(a)
+
+# Output : <class 'int'>
+# Output : 12
 
 # *************************************Remember***********************************
 #                     eval() only takes enclosed string expression.
