@@ -103,3 +103,49 @@
 # num2= eval(input("Enter the number 2"))
 # print(num1+num2)
 # Output :: 30
+
+
+# fixedlen=100
+# print(100*"*")
+# l=['Welcome','to','World', 'of','Programming']
+# for i in l:
+#     stringlen = len(i)   
+#     startpos = int(fixedlen-stringlen)//2
+#     endpos = 100 - startpos-stringlen
+#     #print(startpos*'*'+i,sep=''+endpos*'*')
+#     print(startpos*'*'+i+endpos*'*')
+# print(100*"*")
+
+# Output:
+# ****************************************************************************************************
+# **********************************************Welcome***********************************************
+# *************************************************to*************************************************
+# ***********************************************World************************************************
+# *************************************************of*************************************************
+# ********************************************Programming*********************************************
+# ****************************************************************************************************
+
+
+# Format 1:
+# Displaying variable data using % notation.
+# a,b ='Shyam',100
+# print("%s got %i marks in Maths Exam" %(a,b))
+
+# Format 2:
+# Displaying variable/ identifiers data using {} notation.
+# name='Shyam'
+# marks=100
+# you should use as the seperator to print the data using paranthesis.
+# print("{0} got {1} marks in maths exams". format(name,marks))
+
+# Format 3:
+# # Displaying the variable data using sep keyword.
+# a,b ='10','Shyam'
+# print(a, b, sep=':')
+
+# # Format 4:
+# a='Shyam'
+# list=[10,20,30,40]
+# print("%s got following marks %s" %(a,list))
+
+
