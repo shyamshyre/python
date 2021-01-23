@@ -1,0 +1,29 @@
+Following are the list of operators in python.
+1) Arithmetic operators.
++,-,*,/,//,**
+// - Floor Division Operator.
+** - Exponenential operators
+2) Relational operators
+<,<=,>,>=
+3) Equality operators
+== !=
+4) Logical operators
+and or not
+5) Assignment operators
+
+6) Terinary operators.
+
+7) Shift operators
+
+8) Bitwise operators.
+
+9) Special operators
+   Identity operator
+   Memebership operator
+   
+10) Operator precedence
+
+11) Mathematical functions using modulo.
+
+
+
