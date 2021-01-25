@@ -8,18 +8,22 @@ Following are the list of operators in python.
 3) Equality operators
 == != is
 4) Logical operators
-and or not
+and or not 
+(Logical operators non boolean)
+(Logical operators  boolean)
+
 5) Assignment operators
-
+   Simple Assignment. =
+   Compound Assignment += , -=, *= , /=
 6) Terinary operators.
-
-7) Shift operators
-
-8) Bitwise operators.
-   & | ^ ~
+Syntax: value if(condition) : else value
+7) Bitwise operators.
+   & | ^ ~ << >>
 9) Special operators
-   Identity operator
-   Memebership operator
+    Identity operator 
+    IS ,ISNOT
+    Memebership operator
+    IN ,NOT IN
    
 10) Operator precedence
 
