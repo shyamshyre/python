@@ -19,7 +19,7 @@
 # a=10
 # b=2
 
-# print(a+b)
+#  print(a+b)
 # print(a-b)
 # print(a*b)
 
@@ -67,7 +67,7 @@
 #This is simply the power/ Exponential operator.
 #print(2**3) =>8
 
-#+ operator 
+#  + operator 
 # print(10+20)
 
 # # This acts as a concatenation operator.

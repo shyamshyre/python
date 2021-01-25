@@ -1,7 +1,7 @@
 # ~a  => Unary Operator
 # a+b => Binary Operators
 
-# a=100
+#  a=100
 # b=20
 
 # Java sysntax notation of ternary operator
@@ -18,7 +18,7 @@
 
 # Program: Write a program 2 read int values from keyboard and print minimum value
 
-# num1   = int(input("Enter number 1"))
+#  num1   = int(input("Enter number 1"))
 # num2   = int(input("Enter number 2"))
 # result = num1 if( num1 < num2) else  num2
 # print("the minimum number is ", result)
@@ -33,7 +33,7 @@
 # num3 = int(input("Enter number3"))
 
 
-# Result= num1 if(num1<num2 and num1<num3) else num2 if (num2 < num3) else num3
+#  Result = num1 if(num1<num2 and num1<num3) else num2 if (num2 < num3) else num3
 
 # In the first nested we are checking num1 is less than num2 or num3 
 # if Condition1 fails then result is either num2 or num3 

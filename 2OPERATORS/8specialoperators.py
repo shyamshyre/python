@@ -25,15 +25,15 @@
  # IS This checks whether the value is in collection or not , Returns `TRUE if exists.
  # IS NOT This checks whether the value is not inside  collection or not, Returns TRUE if doesnt exists. 
  
-# s = "Welcome to world of python"
+#  s = "Welcome to world of python"
 # print('z' in s)
 # Ouptut : False
 
-# s = "Welcome to world of python"
+#  s = "Welcome to world of python"
 # print('z' not in s)
 # output : True
 
-# l=[10,20,40,50,60]
+#  l=[10,20,40,50,60]
 # print(30 in l)
 # Outptut : False  
 # l=[10,20,40,50,60]

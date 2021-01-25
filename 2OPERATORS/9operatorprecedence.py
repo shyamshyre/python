@@ -27,7 +27,7 @@
 # First parentheses then multiplication
 # 12*3 = 36
 
-# a= 30
+#  a= 30
 # b= 20
 # c= 10
 # d=5
@@ -40,7 +40,7 @@
 # 500/5 =100.0 (always division returns floating value only)
 
 
-# (a+b) * (c/d)
+#  (a+b) * (c/d)
 # 50 * 2.0 = 100.0
 
 #(a+(b*c)/d)
