@@ -28,12 +28,12 @@
 
 # Write a program tp print minimum of 3 Numbers
 
-# num1 = int(input("Enter number1"))
+#  num1 = int(input("Enter number1"))
 # num2 = int(input("Enter number2"))
 # num3 = int(input("Enter number3"))
 
 
-# result= num1 if(num1<num2 and num1<num3) else num2 if (num2 < num3) else num3
+# Result= num1 if(num1<num2 and num1<num3) else num2 if (num2 < num3) else num3
 
 # In the first nested we are checking num1 is less than num2 or num3 
 # if Condition1 fails then result is either num2 or num3 
@@ -46,7 +46,7 @@
 
 # Write a program tp print equal or max minimum of 2 Numbers
 
-# a   = int(input("Enter number 1"))
+#  a   = int(input("Enter number 1"))
 # b   = int(input("Enter number 2"))
 # result = "equal"if(a==b) else "smaller" if(a<b) else "bigger"      
 # print(result)
