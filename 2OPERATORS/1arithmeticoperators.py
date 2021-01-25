@@ -1,17 +1,16 @@
 # Following are th operators in python.
 # 1) Arithmetic operators ( + - * / % //(Floor Division) **(Exponential/Repeat))
-# 2) Relational operators or Comparison operators
+# 2) Relational operators or Comparison operators (< <= > >= )
 # 3) Logical operators    (and or not )
 # 4) Equality operator    (== != is)
 # 5) Assignment operators () 
 # 6) Bitwise operators    (& ! ^ ~ << >>) (AND OR XOR COMPLEMENT LEFT SHIFT RIGHT SHIFT) 
-# 7) Shift operators      ()
-# 8) Terinary operators
-# 9) Special operators
+# 7) Terinary operators
+# 8) Special operators
 #     8.1) Identity operators
 #     8.2) Membership operators
-# 10) Operators precedence
-# 11) Mathematical fucntions using Math Modulo 
+# *) Operators precedence
+# *) Mathematical fucntions using Math Modulo 
 
 
 
