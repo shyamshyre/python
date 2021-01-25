@@ -33,3 +33,12 @@
 # from math1 import sqrt1
 
 # if two files exist, with same name , when we access we recieve only latest value.
+
+# WAP  to print area of circle
+
+# from math import *
+# radius = float(input("Enter radius: "))
+# # area=math.pi*radius**2
+# area = pi*pow(radius,2)
+# print("Area of cirle" ,area)
+
