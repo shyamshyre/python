@@ -6,7 +6,7 @@ Following are the list of operators in python.
 2) Relational operators
 <,<=,>,>=
 3) Equality operators
-== !=
+== != is
 4) Logical operators
 and or not
 5) Assignment operators
@@ -16,7 +16,7 @@ and or not
 7) Shift operators
 
 8) Bitwise operators.
-
+   & | ^ ~
 9) Special operators
    Identity operator
    Memebership operator

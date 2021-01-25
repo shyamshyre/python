@@ -1,11 +1,11 @@
 # Following are th operators in python.
 # 1) Arithmetic operators ( + - * / % //(Floor Division) **(Exponential/Repeat))
 # 2) Relational operators or Comparison operators
-# 3) Logical operators    (&& || )
-# 4) Equality operator
-# 5) Assignment operators
-# 6) Bitwise operators
-# 7) Shift operators
+# 3) Logical operators    (and or not )
+# 4) Equality operator    (== != is)
+# 5) Assignment operators () 
+# 6) Bitwise operators    (& ! ^ ~ << >>) (AND OR XOR COMPLEMENT LEFT SHIFT RIGHT SHIFT) 
+# 7) Shift operators      ()
 # 8) Terinary operators
 # 9) Special operators
 #     8.1) Identity operators
@@ -23,11 +23,12 @@
 # print(a-b)
 # print(a*b)
 
+
+# print(a/b) 
 #Note//////////////////////////////////////////////////////////////
 #      -5.0 In python always division return's floating point value
 #Note//////////////////////////////////////////////////////////////
 
-# print(a/b) 
 # print(a%b)
 
 # a=10
