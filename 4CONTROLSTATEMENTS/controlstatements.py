@@ -113,5 +113,56 @@
 # Enter fav IPL TeamDBI
 # Sorry no such IPL team exists
 
+# Note:: in the above statemnt else: is not mandatory, its optional
+# else acts as a default statement.
 
+# Following are the 4 ways we can use the if statement
+# Approach1
 
+# if(condition)
+
+# Approach2
+
+# if(conditon) :
+# else:
+
+# Approach3
+# # if (condition):
+#  elif:
+
+# Approach4
+
+# if(conditon) :
+# elif(conditon) :
+# else(conditon) :
+
+# Wap to print biggest of 2 numbers
+# a= int(input("Enter number 1 : "))
+# b= int(input("Enter number 2 : "))
+# if(a>b):
+#     print("A is bigger than B" ,a)
+# else:
+#     print("B is bigger than A" ,b)
+
+# Wap to print biggest of 3 numbers
+# a= int(input("Enter number a : "))
+# b= int(input("Enter number b : "))
+# c= int(input("Enter number c : "))
+# if(a>b and a>c):
+#     print("{} is bigger than {},{}".format(a,b,c))
+# elif(b>c):
+#     print("{} is bigger than {},{}".format(b,a,c))
+# else:
+#     print("{} is greater than {},{}".format(c,a,b))
+
+# Wap to check whether the number is between 1 and 100 or not.
+# a= int(input("Enter number a : "))
+# if(a>=1 and a<=100):
+#     print("Given input {} is between 1 and 100".format(a))
+# else:
+#     print("Sorry Enter the value between 1 and 100")
+
+# Enter number a : 1
+# Given input 1 is between 1 and 100
+
+# Wap to print single digit number from keyboard and pring the number in words.
