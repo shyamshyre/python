@@ -166,3 +166,35 @@
 # Given input 1 is between 1 and 100
 
 # Wap to print single digit number from keyboard and pring the number in words.
+# no= int(input("Enter number : "))
+# if(no==1):
+#     print("ONE")
+# elif(no==2):
+#     print("TWO")
+# elif(no==3):
+#     print("THREE")
+# elif(no==4):
+#     print("FOUR")
+# elif(no==5):
+#     print("FIVE")
+# elif(no==6):
+#     print("SIX")
+# elif(no==7):
+#     print("SEVEN")
+# elif(no==8):
+#     print("EIGHT")
+# elif(no==9):
+#     print("NINE")
+# elif(no==10):
+#     print("TEN")
+# else:
+#     print("SORRY ENTER THE VALUE BETWEEN 1 AND 10 Only")
+
+# Same Requirement using List
+# no= int(input("Enter number : "))
+# wordslist=['ZERO','ONE','TWO','THREE','FOUR','FIVE','SIX','SEVEN','EIGHT','NINE,TEN']
+# print(wordslist[no])
+
+# Output:: Enter number : 4
+# FOUR
+
