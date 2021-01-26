@@ -198,3 +198,17 @@
 # Output:: Enter number : 4
 # FOUR
 
+# WAP to print the number to words (0-100)
+# no= int(input("Enter number : "))
+# oneslist=['','ONE','TWO','THREE','FOUR','FIVE','SIX','SEVEN','EIGHT','NINE']
+# tenslist=['TEN','TWENTY','THIRTY','FORTY','FIFTY','SIXTY','SEVENTY','EIGHTY','NINETY']
+# tensidx=no//10
+# onesidx=no-tensidx*10
+#     or
+#  onesidx = no%10
+# if(no>10):
+#     print(tenslist[tensidx-1]+" " +oneslist[onesidx])
+# elif(no<10):
+#     print(oneslist[onesidx])
+# else:
+#     print("Sorry Number Doesnt Exist in this range")
