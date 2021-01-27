@@ -499,7 +499,14 @@
 # *****
 
 
+no= int(input("Enter the input number"))
+for j in range(2):
+    for i in range(no):
+            if(i!=no):
+                print(" "*no+"* "*(i))
+                else:
+                print(" "*i+"* "*(no-i))
 
 
-
+                
 
