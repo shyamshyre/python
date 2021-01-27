@@ -123,7 +123,7 @@
 #     print('* '*(i+1)) 
 #     idx+=1 
 #     space-=1
-# Output::
+# Output::1
 # Enter the input number4
 #     * 
 #    * * 
@@ -140,3 +140,18 @@
 # * * * 
 #  * * 
 #   * 
+
+# WAP to print diamond 
+no= int(input("Enter the input number"))
+for i in range(2):
+        for j in range(no):
+                 print(" "*(no-j)+"* "*j) if(i==0) else print(" "*j+"* "*(no-j))
+                 # Printing the same using ternary notation
+# Output::
+#    * 
+#   * * 
+#  * * * 
+# * * * * 
+#  * * * 
+#   * * 
+#    * 
