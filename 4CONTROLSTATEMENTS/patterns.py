@@ -98,7 +98,6 @@
 # * * *
 # * *
 # * 
-
 # idx=1
 # no= int(input("Enter the input number"))
 # for i in range(no):
@@ -111,3 +110,33 @@
 # *
 
 
+# WAP to print pyramid
+#     *
+#    *  *
+#   *  *  *  
+
+# idx=1
+# no= int(input("Enter the input number"))
+# space=no
+# for i in range(no):
+#     print(" " * space,end="")
+#     print('* '*(i+1)) 
+#     idx+=1 
+#     space-=1
+# Output::
+# Enter the input number4
+#     * 
+#    * * 
+#   * * * 
+#  * * * *
+
+
+# WAP to print invert pyramid
+# no= int(input("Enter the input number"))
+# for i in range(no):
+#         print(" "*i+"* "*(no-i))
+
+# Enter the input number3
+# * * * 
+#  * * 
+#   * 
