@@ -499,14 +499,326 @@
 # *****
 
 
-no= int(input("Enter the input number"))
-for j in range(2):
-    for i in range(no):
-            if(i!=no):
-                print(" "*no+"* "*(i))
-                else:
-                print(" "*i+"* "*(no-i))
+# no= int(input("Enter the input number"))
+# for j in range(2):
+#     for i in range(no):
+#             if(i!=no):
+#                 print(" "*no+"* "*(i))
+#                 else:
+#                 print(" "*i+"* "*(no-i))
 
 
                 
+
+                # Break Statements
+# Break statements are used to break execution of the loop.
+# Once the break is executed immediately the loop is terminated
+# Break is only used in itterative execution
+# for i in range(0,10):
+#         print("world is great")
+#         if(i==3):
+#                 break    
+# print("Loop terminated")
+# Ouput::
+# world is great
+# world is great
+# world is great
+# world is great
+# Loop terminated
+
+# score=[10,20,30,100,110]
+# for i in score:
+#         print(i)
+#         if (i>=100):
+#                 print("Centurion and time to declare")
+#                 break
+# print("OOPs Missed 150")
+
+# x=10
+# if(x>30):
+#         print("Working")
+# break
+# print("Hello World")
+#     ^
+# SyntaxError: 'break' outside loop
+# Because should be used only under for,while loop , the same can be executed under loop.
+# counter=0
+# while(True):
+#         counter+=1
+#         if(counter>5):
+#                 break
+#         else:
+#                 print(counter)
+# Output::
+# 1
+# 2
+# 3
+# 4
+# 5
+# The above example is valid
+
+#********************************* Continue Statements*******************
+# Continue statement is used to skip the current itteration in the loop and 
+# continue the next itteration.
+
+# for i in range(5):
+#         if(i==3):
+#                 continue
+#         print(i)
+
+# Output::0 3 is skipped
+# 1
+# 2
+# 4
+
+# for i in range(10):
+#     if(i%2==0):
+#      continue
+#     print(i)
+# Output:
+# 1
+# 3
+# 5
+# 7
+# 9
+
+# Divide 100 by all the numbers inside the list 
+# Anything by 0 will result zero division error so removing 0
+# l=[10,20,0,30,40,0,50]
+# result=0
+# for i in range(len(l)):
+#         if l[i]==0:
+#          continue
+#         else:
+#                 result=100/l[i]
+#                 print("Reuslt is{:.2f}".format(result))
+
+
+# Note::****************************************************************
+# Break and continue should be used with in the loop only.
+#***********************************************************************
+
+# for i in range(3):
+#         for j in range(3):
+#                 if i==j:
+#                         break
+#                 print(i,j)
+# Output:
+# 1 0
+# 2 0
+# 2 1
+
+
+# for i in range(3):
+#         for j in range(3):
+#                 if i==j:
+#                         continue
+#                 print(i,j)
+
+# Output::
+# 0 1
+# 0 2
+# 1 0
+# 1 2
+# 2 0
+# 2 1
+
+
+#********************else with sequences(loops)*********************
+# else can be used in conjuction with sequences(for/while) and even
+# with try,# except,& finally
+#*******************************************************************
+# Note:: if the loop statement executed without any break statenment,
+# then the else part is going to be executed. if not else block is not 
+# going to be executed.
+
+# for i in range(3):
+#         if(i==2):
+#                 continue
+#         print(i)
+# else:
+#  print("Sorry its out of range")
+
+#  Output::
+# 0
+# 1
+# 2
+# Sorry its out of range
+# Since the loop got executed successfully so is the reason the else block got printed.
+
+# for i in range(3):
+#         if(i==2):
+#                 break
+#         print(i)
+# else:
+#  print("Sorry its out of range")
+
+# Output::
+# 0
+# 1
+
+# Wap to process all the elements value > 0 if its 0 then skip
+# the processing and continue the rest.
+# l=[10,20,0,30,40,50,0,60]
+# for i in range(len(l)):
+#         if(l[i]>0):
+#                 print("{} is processing".format(l[i]))
+#         else:
+#          continue
+# else:
+#         print("All the elements successfully Processed Thank you")
+
+# Output::
+# 10 is processing
+# 20 is processing
+# 30 is processing
+# 40 is processing
+# 50 is processing
+# 60 is processing
+# All the elements successfully Processed Thank you
+
+# When to use for loop and while loop
+# For Loop: As long as we are processing sequnces.
+# While Loop: As long as we are processing conditional based Itterative Statements.
+
+# How to exit from loop?
+# break
+
+# how to skip the current itteration and continue the itteration
+# continue
+
+# else part can be used in for/while if there is no break statement being executed inside 
+# the loop.
+
+ 
+# pass : it acts as empty body or place holder for some implementation.
+# Wherever we want empty body then we need to go for pass
+
+# def f1():
+# Ouput::SyntaxError: unexpected EOF while parsing
+
+# def f1():
+#         pass
+
+# Output:: Successfully Execution Empty printe (but same is not printed)
+
+# class A:
+#         class B:
+#                 class C:
+
+# Output:: SyntaxError: unexpected EOF while parsing
+
+
+# class A:
+#         pass
+#         class B:
+#                 pass
+#                 class C:
+#                         pass
+
+# Output:: Successfully Execution Empty printe (but same is not printed)
+
+# x=9
+# if x>10:
+#         print("x is greater than 10")
+# else:
+#         pass
+# x is greater than 10
+# Output :: Empty in else condition
+# Today we dont know what to write , but tomorrow we can change any message.
+# AS already place holder exists so no issue or huge modification.
+
+
+# 1. pass statement acts as empty statement
+# 2. it acts as a place holder to implement the future code.
+# 3. it can be used to define minimal classes and functions.
+# 4. to define the abstract methods, pass statement is the best choice.
+
+
+# Minimal Class Example
+# class A:
+#         pass
+# ***********************
+
+#  Minimal function Example
+# def f1(): pass
+
+
+#*********** Astract Method Example*******************
+# from abc import ABC, abstractmethod
+
+
+# class Loan(ABC):
+#         @abstractmethod
+#         def getInterestRate(self):
+#                 pass
+# class CarLoan(Loan):
+#         def getInterestRate(self):
+#                 return 12
+# class HomeLoan(Loan):
+#         def getInterestRate(self):
+#                 return 8
+
+# cl = CarLoan()
+# print(cl.getInterestRate())
+# hl = HomeLoan()
+# print(hl.getInterestRate())
+
+#*************************************************************************************
+#***************************************del Statement********************************
+#*************************************************************************************
+# del is used to delete reference variables from the memory.
+# once the refernce variable are deleted from the memory, they are eligible for garbage collection
+
+
+
+# x= 100
+# print(x)
+# del x
+# print(x)
+# NameError: name 'x' is not defined
+
+# str1= "We are indians"
+# str2=str1
+# str3=str2
+
+# in the baove example stri,str2,str3 are reference variables that are pointing to object "We are indians"
+# if we are deleting the str1 then still str2,str3 are pointing to same object so we can access str2,str3
+# del str1
+# Output: NameError: name 'str1' is not defined
+# print(str1)
+# print(str2)
+# print(str3)
+# Output::
+# We are indians
+# We are indians
+# del str1, str2, str3
+# print(str1,str2,str3)
+# O/p::NameError: name 'str1' is not defined
+
+# 2. del VS Immutable Objects
+
+# s="Test String"
+# del s
+# print(s)
+# Output:NameError: name 's' is not defined
+# del s[0], We cannot delete T from the memory as its immutable object.
+# TypeError: 'str' object doesn't support item deletion
+# del cannot delete immutable objects but it can delete reference variables pointing to immutable objects
+
+# 3.del vs None
+# x= 10
+# x= None
+# print(x)
+# Here the x is pointing to 10 object initially, later we have assigned to None
+# so the 10 doesnt exist, eligible for gc but still we can access x as its mapped to None.
+
+
+Summary:
+# del is a keyword in pyhtonl
+# del is used to delete refernce variables 
+# del cannot delete the content inside the immutable objects, but it can delete the rference variables.
+# When we are asigning none to reference variables it represents nothing, 
+# Ex: reassiging a variable None to existing variable.
+#     then the previous object eleigible for gc.
 
