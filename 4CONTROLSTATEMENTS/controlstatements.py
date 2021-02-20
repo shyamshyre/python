@@ -814,7 +814,7 @@
 # so the 10 doesnt exist, eligible for gc but still we can access x as its mapped to None.
 
 
-Summary:
+# Summary:
 # del is a keyword in pyhtonl
 # del is used to delete refernce variables 
 # del cannot delete the content inside the immutable objects, but it can delete the rference variables.
@@ -822,3 +822,49 @@ Summary:
 # Ex: reassiging a variable None to existing variable.
 #     then the previous object eleigible for gc.
 
+
+
+# # Wap to check whether the number is prime or not.
+
+# isprime=True
+# no = int(input("Enter the no to check whether its prime or not ?"))
+# i=1
+# if no <=1 :
+#         print("Values should be greater than 1")
+# else :
+#         for i in range(1,no-1):
+#                 print(i)
+#                 if (no%i==0):
+#                         # print("Given number {} is composite".format(no))
+#                         isprime=False
+#                         break
+                        
+#         if(isprime == False):
+#                 print(isprime)
+#                 print("Given number {} is not prime".format(no))
+#         else:
+#                 print(isprime)
+#                 print("Given number {} is prime".format(no))
+
+
+
+# Wap to print all the list of prime numbers between the number provided.
+
+prime=True
+no = int(input("Enter the no to check whether its prime or not ?"))
+i,j=0,0
+if no <=1 :
+        print("Values should be greater than 1")
+else :
+        for i in range(1,no-1): 
+                i+=1
+                for j in range(1,i-1):
+                        j+=1
+                        #print("i",i ,"j",j)
+                        if(i%j==0):
+                                prime=False
+                                print("Composite Number  {}".format(i))
+                                break
+                                
+                        elif(prime == False and i!=2):
+                                print("Prime Number  {}".format(i))

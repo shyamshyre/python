@@ -60,7 +60,7 @@
 # 2) Bitwise ^(XOR) operator
 # if any of the bits are 0 and 1 then the result is 1
 # if both bits are 0 then the result is 0
-# if both bits are 1 then the result is 1
+# if both bits are 1 then the result is 0
 
 # 100
 # 101
