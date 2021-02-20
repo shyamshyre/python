@@ -62,7 +62,7 @@
 #             tatement1
 #             statement1X
 
-# name=input("Enter name:: ")
+#  name=input("Enter name:: ")
 # if(name =="shyam"):
 #     print("Welcome to Python tutorials")
 # else:
@@ -89,7 +89,7 @@
 # else:
 #     default action
 
-# team = input("Enter fav IPL Team")
+#  team = input("Enter fav IPL Team")
 # if(team =="CSK"):
 #     print("Dhoni the King")
 # elif(team=="RCB"):
@@ -346,7 +346,7 @@
 # 40
 # 50
 
-# sum=0
+#  sum=0
 # l1=[10,20,30,40,50]
 # for i in range(len(l1)):
 #     sum+=l1[i]
@@ -469,7 +469,7 @@
 #************************************************************
 
 
-# for i in range(3):
+#  for i in range(3):
 #     for j in range(2):
 #         print("i Value {} j Value{}".format(i,j))
 
@@ -482,7 +482,7 @@
 # i Value 2 j Value1
 
 
-# for i in range(6):
+#  for i in range(6):
 #     for j in range(i):
 #         print("*",end="")
 #     print()
@@ -526,7 +526,7 @@
 # world is great
 # Loop terminated
 
-# score=[10,20,30,100,110]
+#  score=[10,20,30,100,110]
 # for i in score:
 #         print(i)
 #         if (i>=100):
@@ -759,7 +759,7 @@
 #         def getInterestRate(self):
 #                 return 8
 
-# cl = CarLoan()
+#  cl = CarLoan()
 # print(cl.getInterestRate())
 # hl = HomeLoan()
 # print(hl.getInterestRate())
@@ -778,7 +778,7 @@
 # print(x)
 # NameError: name 'x' is not defined
 
-# str1= "We are indians"
+#  str1= "We are indians"
 # str2=str1
 # str3=str2
 
@@ -826,7 +826,7 @@
 
 # # Wap to check whether the number is prime or not.
 
-# isprime=True
+# i sprime=True
 # no = int(input("Enter the no to check whether its prime or not ?"))
 # i=1
 # if no <=1 :
