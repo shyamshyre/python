@@ -1,0 +1,12 @@
+String::
+A sequence of characters is called string.
+
+s=" India is my country"
+s=' India is my country'
+s='''India is my country '''
+s='''India 
+    is
+    my
+    country (Multi Line String Literals)'''
+s = India is the greates't country 
+

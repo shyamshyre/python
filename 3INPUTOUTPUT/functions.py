@@ -17,6 +17,11 @@
 #         print(i)
 
 l =[10,20,30,40,50]
+
+for i in range(len(l)):
+    print(l[i])
+
+
 # positive number : forward direction ending index -1
 # negative number : backward dorecton ending index +1
 # starting index of the array is from 0.
