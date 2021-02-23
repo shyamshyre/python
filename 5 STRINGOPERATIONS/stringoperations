@@ -10,3 +10,5 @@ s='''India
     country (Multi Line String Literals)'''
 s = India is the greates't country 
 
+s[0:] :: if nothing is specified in end index then the default is considerd as length of the string.
+s[:12] :: if nothing is specified in begining index then the string begining index position is from 0.
