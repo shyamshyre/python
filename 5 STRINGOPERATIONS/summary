@@ -1,0 +1,40 @@
+Removing spaces from the String.
+ltrim() ->  Removes space in left side of the string.
+rtrim() ->  Removes space in right side of the string.
+trim() ->  Removes the space from the both sides.
+
+Index of the string.
+s.find('',begin,end)
+Returns the first occurence of the string from left to right if match found.
+Returns -1 if not found.
+s.rfind('',begin,end)
+
+s.index('',begin,end) : Same as find but returns value error if not found.
+s.rindex('',begin,end)
+
+s.count('',begin,end)-> Returns the count of occurrences of the string
+
+s.replace(old,new) -> Returns the replacement of the string.
+
+s.split('<seperator> ')-Returns the resukt in list 
+(<seperator>).join(l<list>)
+
+Changing case of the string..
+s.upper()
+s.lower()
+s.swapcase();
+s.titlecase();
+s.capitalize();
+
+Checking starting and endingof the string..
+s.startswith("<substring")
+s.endswith("<substring")
+
+To check type of characters in the string.
+isalphanum()
+isalpha()
+isdigit()
+isupper()
+islower()
+istitle()
+isspace()
