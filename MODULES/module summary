@@ -1,0 +1,90 @@
+1) Creating a module
+2) Aliasing a module
+syntax::import module as <alias>
+alias.method()
+alias.variable
+
+Accessing selected variables and method with out alias or module name
+1) from <module> import selected variable,methods
+    from mathmod import add
+    add(10,20)
+
+2) from module import * 
+    from mathmod import add,mul
+    add(10,20)
+    mul(10,20)
+
+3) Module aliasing
+    import <module> as <aliasing>
+
+4) Member aliasing
+    Creating alias for member variables
+    from <modulename> import <method1> as alias1, <method2> as alias2.
+    from mathmod import add as a, mul as m
+
+    print(a(10,30))
+    print(m(10,30))
+
+5) Module conflicts
+if the same method name exists in 2 imported modules, then python will consider
+only the recent /last imported one only.
+module1 
+    add()
+module2
+    add()
+
+Test.py
+import module1
+import module2
+
+add() --> it will consider only th last import so module2
+module1.add() --> This could be even called in the following way to get specific module related informaiton
+module2.add()--> This could be even called in the following way to get specific module related informaiton
+
+from <module1> import add as a1
+from <module2> import add as a2
+This is calling the module1, module2 and add method inside it.
+a1()
+a2()
+
+6) Module Reloading
+Though we are loading same module multiple times, it only loads only once in the memory by PVM
+Let suppose we are importing a module in the test.py and it got version 1  with only add() method 
+and add method got some logic which is executing for 30-40 secondsand during the mean time the module
+file got updated in the backend  and added mul() method.
+
+then if we are trying to call the mul() function from the test file ,upon completion of add() method
+then we cant get the updated version of the module.So it throws error as the method not found.
+To prevent this kind of situation we need to use reload and it need to be importd from imp module
+
+7) dir() 
+return a list all the members and member variables of the particular module
+[__doc__,__name__,__file__,__annotations__,__loader__]
+
+8) help()
+Provides a detail documentation of the given module
+
+__file__ ==> returns the filename in windows and absolute path in mac.
+to get the absolute path
+we can take help of os module
+os.path.abspath(__file__) 
+os.path.dirname(__file__) 
+
+9) __name__
+
+A file could be executed directly or indirectly
+if its executed directly and if we print __name__ then the output is main.
+if its executed indirectly i.e if we are calling through another module then we get the module name rather than main.
+
+Random generators
+
+1) random()
+This is useful for generating a random float value between 0 and 1 but not 0 and 1 begin and end exclusive
+2) uniform()
+This is useful for generating a random float value between begin and end index begin and end exclusive
+3) randint()
+This is useful for generating a random int value between begin and end index begin and end value are inclusive
+4) randrange(begin,end,step)
+This is used for generating a random integer value between begin and end index -1, step we can use
+5)choice()
+Used for generating a random element from the given indexable sequence list,string,tuple
