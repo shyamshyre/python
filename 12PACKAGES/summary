@@ -1,0 +1,46 @@
+1) packages are nothing but group of modules
+2) packages provides us readability , modularity and encapsulation.
+3) we need to mention __init__.py file in the every package folder
+4) __init__.py this files acts as initalizer , if we want to print /call any methods inside the package 
+or perform anything then we need to write the code inside it.
+5) Calling of the package are to be performed from the parallel directory only.
+
+install
+|
+|-- test.py
+com
+ |
+ |--  __init.py__
+ |--  filename.py 
+    |    
+    |--faveheal
+            |-- __init.py__
+            |-- calculator.py
+
+
+calculator.py can only be executed if test.py resides in the install directory , but if we want to make it execute global then we need to make it as package.
+
+To convert it to package we need to take help of setuptools module
+1) create a filename setup.py int the directory
+2) call the function setup()
+3) setup takes following arguments(name="",version="",packages=favehea])
+Either we can declarre in that way or we can take help of find_packages from setup tools
+from setuptools import find_packages.
+4) setup takes following arguments(name="",version="",packages=find_packages())
+
+install
+|
+|-- setup.py
+com
+ |
+ |--  __init.py__
+ |--  filename.py 
+    |    
+    |--faveheal
+            |-- __init.py__
+            |-- calculator.py
+
+===================Setup.py file=================
+from setuptools import setup
+from setuptools impoer find_packages
+setup(name="",version="",packages=find_packages())
